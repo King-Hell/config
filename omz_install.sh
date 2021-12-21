@@ -43,7 +43,7 @@ custom_zsh=${ZSH:+yes}
 # Default settings
 ZSH=${ZSH:-~/.oh-my-zsh}
 REPO=${REPO:-ohmyzsh/ohmyzsh}
-REMOTE=${REMOTE:-https://github.com/${REPO}.git}
+REMOTE=${REMOTE:-git@github.com:${REPO}.git}
 BRANCH=${BRANCH:-master}
 
 # Other options
