@@ -1,7 +1,7 @@
-# !/bin/sh
+# !/bin/bash
 echo Installing oh-my-zsh
 #wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
-sh omz_install.sh
+bash omz_install.sh
 
 echo Installing zsh-autosuggestions
 git clone git@github.com:zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions

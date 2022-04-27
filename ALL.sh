@@ -1,9 +1,7 @@
-# !/bin/sh
-echo SSH
-sh ./ssh.sh
+# !/bin/bash
+echo vim
+bash ./vimplus.sh
 
 echo zsh
-sh ./oh-my-zsh.sh
+bash ./oh-my-zsh.sh
 
-echo vim
-sh ./spf13-vim.sh
