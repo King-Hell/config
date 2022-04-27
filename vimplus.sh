@@ -4,3 +4,5 @@ cat ~/.vimplus/.vimrc | sed "/call plug#begin/i\let g:plug_url_format = 'git@git
 mv ~/.vimplus/.vimrc.new ~/.vimplus/.vimrc
 cd ~/.vimplus
 ./install.sh
+cd ~/.vim/plugged/YouCompleteMe
+python3 ./install.py --clang-completer
